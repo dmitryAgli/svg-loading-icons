@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SVG Loading Icons With GSAP</title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style>
+		body {
+			background-color: #3E3C41;
+		}
+		.image {
+			max-width: 25%;
+			margin: 50px auto;
+		}
+		.cls-1 {
+			fill:#9f88d6;
+			opacity: 0.2;
+		}
+		.cls-2 {
+			fill:#9f88d6;
+			opacity: 0.3;
+		}
+		.container-fluid {
+			margin-top: 10%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4">
+				<div class="image">
+					<svg id="rect_1" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 462">
+					  <title>Loadind Icon</title>
+					  	<rect class="cls-1" x="206.1" width="49.8" height="107.89" rx="12" ry="12"/>
+					  	<rect class="cls-1" x="340.3" y="69.86" width="49.8" height="107.89" rx="12" ry="12" transform="translate(185.51 -239.97) rotate(45)"/>
+					  	<rect class="cls-1" x="392.16" y="195.05" width="49.8" height="107.89" rx="12" ry="12" transform="translate(657.05 -186.05) rotate(90)"/>
+					  	<rect class="cls-1" x="340.3" y="320.25" width="49.8" height="107.89" rx="12" ry="12" transform="translate(879.03 362.56) rotate(135)"/>
+					  	<rect class="cls-1" x="215.1" y="372.11" width="49.8" height="107.89" rx="12" ry="12" transform="translate(471 834.11) rotate(-180)"/>
+					  	<rect class="cls-1" x="89.91" y="320.25" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-77.61 701.97) rotate(-135)"/>
+					  	<rect class="cls-1" x="38.05" y="195.05" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-195.05 293.95) rotate(-90)"/>
+					  	<rect class="cls-1" x="89.91" y="69.86" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-62.92 99.44) rotate(-45)"/>
+					</svg>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="image">
+					<svg id="rect_2" data-name="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 462">
+					  <title>Loadind Icon</title>
+					  	<rect class="cls-1" x="206.1" width="49.8" height="107.89" rx="12" ry="12"/>
+					  	<rect class="cls-1" x="340.3" y="69.86" width="49.8" height="107.89" rx="12" ry="12" transform="translate(185.51 -239.97) rotate(45)"/>
+					  	<rect class="cls-1" x="392.16" y="195.05" width="49.8" height="107.89" rx="12" ry="12" transform="translate(657.05 -186.05) rotate(90)"/>
+					  	<rect class="cls-1" x="340.3" y="320.25" width="49.8" height="107.89" rx="12" ry="12" transform="translate(879.03 362.56) rotate(135)"/>
+					  	<rect class="cls-1" x="215.1" y="372.11" width="49.8" height="107.89" rx="12" ry="12" transform="translate(471 834.11) rotate(-180)"/>
+					  	<rect class="cls-1" x="89.91" y="320.25" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-77.61 701.97) rotate(-135)"/>
+					  	<rect class="cls-1" x="38.05" y="195.05" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-195.05 293.95) rotate(-90)"/>
+					  	<rect class="cls-1" x="89.91" y="69.86" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-62.92 99.44) rotate(-45)"/>
+					</svg>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="image">
+					<svg id="rect_3" data-name="Layer_3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 462">
+					  <title>Loadind Icon</title>
+					  	<rect class="cls-1" x="206.1" width="49.8" height="107.89" rx="12" ry="12"/>
+					  	<rect class="cls-1" x="340.3" y="69.86" width="49.8" height="107.89" rx="12" ry="12" transform="translate(185.51 -239.97) rotate(45)"/>
+					  	<rect class="cls-1" x="392.16" y="195.05" width="49.8" height="107.89" rx="12" ry="12" transform="translate(657.05 -186.05) rotate(90)"/>
+					  	<rect class="cls-1" x="340.3" y="320.25" width="49.8" height="107.89" rx="12" ry="12" transform="translate(879.03 362.56) rotate(135)"/>
+					  	<rect class="cls-1" x="215.1" y="372.11" width="49.8" height="107.89" rx="12" ry="12" transform="translate(471 834.11) rotate(-180)"/>
+					  	<rect class="cls-1" x="89.91" y="320.25" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-77.61 701.97) rotate(-135)"/>
+					  	<rect class="cls-1" x="38.05" y="195.05" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-195.05 293.95) rotate(-90)"/>
+					  	<rect class="cls-1" x="89.91" y="69.86" width="49.8" height="107.89" rx="12" ry="12" transform="translate(-62.92 99.44) rotate(-45)"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+				<div class="col-xs-4">
+					<div class="image">
+						<svg id="circle_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.76 458.76">
+						<title>icon_circle</title>
+							<circle class="cls-1" cx="229.38" cy="53.41" r="52.91"/>
+							<circle class="cls-1" cx="355.43" cy="106.57" r="52.91" transform="translate(27.13 280.92) rotate(-45)"/>
+							<circle class="cls-1" cx="405.35" cy="229.38" r="52.91"/>
+							<circle class="cls-1" cx="355.43" cy="355.43" r="52.91" transform="translate(-148.84 353.81) rotate(-45)"/>
+							<circle class="cls-1" cx="229.38" cy="405.35" r="52.91"/>
+							<circle class="cls-1" cx="106.57" cy="355.43" r="52.91" transform="translate(-221.73 177.84) rotate(-45)"/>
+							<circle class="cls-1" cx="53.41" cy="229.38" r="52.91"/>
+							<circle class="cls-1" cx="106.57" cy="106.57" r="52.91" transform="translate(-45.76 104.95) rotate(-45)"/>
+						</svg>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="image">
+						<svg id="circle_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.76 458.76">
+						<title>icon_circle</title>
+							<circle class="cls-1" cx="229.38" cy="53.41" r="52.91"/>
+							<circle class="cls-1" cx="355.43" cy="106.57" r="52.91" transform="translate(27.13 280.92) rotate(-45)"/>
+							<circle class="cls-1" cx="405.35" cy="229.38" r="52.91"/>
+							<circle class="cls-1" cx="355.43" cy="355.43" r="52.91" transform="translate(-148.84 353.81) rotate(-45)"/>
+							<circle class="cls-1" cx="229.38" cy="405.35" r="52.91"/>
+							<circle class="cls-1" cx="106.57" cy="355.43" r="52.91" transform="translate(-221.73 177.84) rotate(-45)"/>
+							<circle class="cls-1" cx="53.41" cy="229.38" r="52.91"/>
+							<circle class="cls-1" cx="106.57" cy="106.57" r="52.91" transform="translate(-45.76 104.95) rotate(-45)"/>
+						</svg>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="image">
+						<svg id="circle_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.76 458.76">
+						<title>icon_circle</title>
+							<circle class="cls-1" cx="229.38" cy="53.41" r="52.91"/>
+							<circle class="cls-1" cx="355.43" cy="106.57" r="52.91" transform="translate(27.13 280.92) rotate(-45)"/>
+							<circle class="cls-1" cx="405.35" cy="229.38" r="52.91"/>
+							<circle class="cls-1" cx="355.43" cy="355.43" r="52.91" transform="translate(-148.84 353.81) rotate(-45)"/>
+							<circle class="cls-1" cx="229.38" cy="405.35" r="52.91"/>
+							<circle class="cls-1" cx="106.57" cy="355.43" r="52.91" transform="translate(-221.73 177.84) rotate(-45)"/>
+							<circle class="cls-1" cx="53.41" cy="229.38" r="52.91"/>
+							<circle class="cls-1" cx="106.57" cy="106.57" r="52.91" transform="translate(-45.76 104.95) rotate(-45)"/>
+						</svg>
+					</div>
+				</div>
+		</div>
+		
+		<div class="row">
+				<div class="col-xs-4">
+					<div class="image">
+						<svg id="rect_7" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 462">
+						<title>loading_icon</title>
+						<rect class="cls-2" x="224.77" width="12.47" height="107.89" rx="6.23" ry="6.23"/>
+						<rect class="cls-2" x="292.52" y="13.48" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(48.54 -109.2) rotate(22.5)"/>
+						<rect class="cls-2" x="349.96" y="51.86" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(179.14 -220.88) rotate(45)"/>
+						<rect class="cls-2" x="388.34" y="109.3" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(394.4 -263.77) rotate(67.5)"/>
+						<rect class="cls-2" x="401.82" y="177.06" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(639.05 -177.06) rotate(90)"/>
+						<rect class="cls-2" x="388.34" y="244.81" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(821.59 48.54) rotate(112.5)"/>
+						<rect class="cls-2" x="349.96" y="302.25" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(859.94 356.2) rotate(135)"/>
+						<rect class="cls-2" x="292.52" y="340.63" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(725.77 644.79) rotate(157.5)"/>
+						<rect class="cls-2" x="224.77" y="354.11" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(462 816.11) rotate(180)"/>
+						<rect class="cls-2" x="157.01" y="340.63" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(163.06 821.59) rotate(-157.5)"/>
+						<rect class="cls-2" x="99.57" y="302.25" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-71.25 682.88) rotate(-135)"/>
+						<rect class="cls-2" x="61.19" y="244.81" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-182.79 475.38) rotate(-112.5)"/>
+						<rect class="cls-2" x="47.71" y="177.06" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-177.06 284.94) rotate(-90)"/>
+						<rect class="cls-2" x="61.19" y="109.3" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-109.2 163.06) rotate(-67.5)"/>
+						<rect class="cls-2" x="99.57" y="51.86" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-43.83 105.8) rotate(-45)"/>
+						<rect class="cls-2" x="157.01" y="13.48" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-13.38 67.6) rotate(-22.5)"/>
+						</svg>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="image">
+						<svg id="rect_8" data-name="Layer 8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 462">
+						<title>loading_icon</title>
+						<rect class="cls-2" x="224.77" width="12.47" height="107.89" rx="6.23" ry="6.23"/>
+						<rect class="cls-2" x="292.52" y="13.48" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(48.54 -109.2) rotate(22.5)"/>
+						<rect class="cls-2" x="349.96" y="51.86" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(179.14 -220.88) rotate(45)"/>
+						<rect class="cls-2" x="388.34" y="109.3" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(394.4 -263.77) rotate(67.5)"/>
+						<rect class="cls-2" x="401.82" y="177.06" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(639.05 -177.06) rotate(90)"/>
+						<rect class="cls-2" x="388.34" y="244.81" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(821.59 48.54) rotate(112.5)"/>
+						<rect class="cls-2" x="349.96" y="302.25" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(859.94 356.2) rotate(135)"/>
+						<rect class="cls-2" x="292.52" y="340.63" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(725.77 644.79) rotate(157.5)"/>
+						<rect class="cls-2" x="224.77" y="354.11" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(462 816.11) rotate(180)"/>
+						<rect class="cls-2" x="157.01" y="340.63" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(163.06 821.59) rotate(-157.5)"/>
+						<rect class="cls-2" x="99.57" y="302.25" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-71.25 682.88) rotate(-135)"/>
+						<rect class="cls-2" x="61.19" y="244.81" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-182.79 475.38) rotate(-112.5)"/>
+						<rect class="cls-2" x="47.71" y="177.06" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-177.06 284.94) rotate(-90)"/>
+						<rect class="cls-2" x="61.19" y="109.3" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-109.2 163.06) rotate(-67.5)"/>
+						<rect class="cls-2" x="99.57" y="51.86" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-43.83 105.8) rotate(-45)"/>
+						<rect class="cls-2" x="157.01" y="13.48" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-13.38 67.6) rotate(-22.5)"/>
+						</svg>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="image">
+						<svg id="rect_9" data-name="Layer 9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 462">
+						<title>loading_icon</title>
+						<rect class="cls-2" x="224.77" width="12.47" height="107.89" rx="6.23" ry="6.23"/>
+						<rect class="cls-2" x="292.52" y="13.48" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(48.54 -109.2) rotate(22.5)"/>
+						<rect class="cls-2" x="349.96" y="51.86" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(179.14 -220.88) rotate(45)"/>
+						<rect class="cls-2" x="388.34" y="109.3" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(394.4 -263.77) rotate(67.5)"/>
+						<rect class="cls-2" x="401.82" y="177.06" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(639.05 -177.06) rotate(90)"/>
+						<rect class="cls-2" x="388.34" y="244.81" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(821.59 48.54) rotate(112.5)"/>
+						<rect class="cls-2" x="349.96" y="302.25" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(859.94 356.2) rotate(135)"/>
+						<rect class="cls-2" x="292.52" y="340.63" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(725.77 644.79) rotate(157.5)"/>
+						<rect class="cls-2" x="224.77" y="354.11" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(462 816.11) rotate(180)"/>
+						<rect class="cls-2" x="157.01" y="340.63" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(163.06 821.59) rotate(-157.5)"/>
+						<rect class="cls-2" x="99.57" y="302.25" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-71.25 682.88) rotate(-135)"/>
+						<rect class="cls-2" x="61.19" y="244.81" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-182.79 475.38) rotate(-112.5)"/>
+						<rect class="cls-2" x="47.71" y="177.06" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-177.06 284.94) rotate(-90)"/>
+						<rect class="cls-2" x="61.19" y="109.3" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-109.2 163.06) rotate(-67.5)"/>
+						<rect class="cls-2" x="99.57" y="51.86" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-43.83 105.8) rotate(-45)"/>
+						<rect class="cls-2" x="157.01" y="13.48" width="12.47" height="107.89" rx="6.23" ry="6.23" transform="translate(-13.38 67.6) rotate(-22.5)"/>
+						</svg>
+					</div>
+				</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4">
+						<div class="image">
+							<svg id="circle_10" data-name="Layer 10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.11 404.11">
+							<title>loading_icon</title>
+								<circle class="cls-2" cx="202.05" cy="25" r="25"/>
+								<circle class="cls-2" cx="298.76" cy="67.42" r="25" transform="translate(93.19 288.69) rotate(-67.5)"/>
+								<circle class="cls-2" cx="356.2" cy="105.8" r="25" transform="translate(0.57 253.91) rotate(-45)"/>
+								<circle class="cls-2" cx="394.58" cy="163.24" r="25" transform="translate(-61.38 134.48) rotate(-22.5)"/>
+								<circle class="cls-2" cx="379.11" cy="202.05" r="25"/>
+								<circle class="cls-2" cx="394.58" cy="298.76" r="25" transform="translate(-61.38 520.02) rotate(-67.5)"/>
+								<circle class="cls-2" cx="356.2" cy="356.2" r="25" transform="translate(-176.49 327.25) rotate(-45)"/>
+								<circle class="cls-2" cx="298.76" cy="394.58" r="25" transform="translate(-157.2 115.42) rotate(-22.5)"/>
+								<circle class="cls-2" cx="202.05" cy="379.11" r="25"/>
+								<circle class="cls-2" cx="163.24" cy="394.58" r="25" transform="translate(-292.71 365.45) rotate(-67.5)"/>
+								<circle class="cls-2" cx="105.8" cy="356.2" r="25" transform="translate(-249.83 150.2) rotate(-45)"/>
+								<circle class="cls-2" cx="67.42" cy="298.76" r="25" transform="translate(-138.14 19.6) rotate(-22.5)"/>
+								<circle class="cls-2" cx="25" cy="202.05" r="25"/>
+								<circle class="cls-2" cx="67.42" cy="163.24" r="25" transform="translate(-138.14 134.12) rotate(-67.5)"/>
+								<circle class="cls-2" cx="105.8" cy="105.8" r="25" transform="translate(-72.77 76.86) rotate(-45)"/>
+								<circle class="cls-2" cx="163.24" cy="67.42" r="25" transform="translate(-42.32 38.66) rotate(-22.5)"/>
+							</svg>
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="image">
+							<svg id="circle_11" data-name="Layer 11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.11 404.11">
+							<title>loading_icon</title>
+								<circle class="cls-2" cx="202.05" cy="25" r="25"/>
+								<circle class="cls-2" cx="298.76" cy="67.42" r="25" transform="translate(93.19 288.69) rotate(-67.5)"/>
+								<circle class="cls-2" cx="356.2" cy="105.8" r="25" transform="translate(0.57 253.91) rotate(-45)"/>
+								<circle class="cls-2" cx="394.58" cy="163.24" r="25" transform="translate(-61.38 134.48) rotate(-22.5)"/>
+								<circle class="cls-2" cx="379.11" cy="202.05" r="25"/>
+								<circle class="cls-2" cx="394.58" cy="298.76" r="25" transform="translate(-61.38 520.02) rotate(-67.5)"/>
+								<circle class="cls-2" cx="356.2" cy="356.2" r="25" transform="translate(-176.49 327.25) rotate(-45)"/>
+								<circle class="cls-2" cx="298.76" cy="394.58" r="25" transform="translate(-157.2 115.42) rotate(-22.5)"/>
+								<circle class="cls-2" cx="202.05" cy="379.11" r="25"/>
+								<circle class="cls-2" cx="163.24" cy="394.58" r="25" transform="translate(-292.71 365.45) rotate(-67.5)"/>
+								<circle class="cls-2" cx="105.8" cy="356.2" r="25" transform="translate(-249.83 150.2) rotate(-45)"/>
+								<circle class="cls-2" cx="67.42" cy="298.76" r="25" transform="translate(-138.14 19.6) rotate(-22.5)"/>
+								<circle class="cls-2" cx="25" cy="202.05" r="25"/>
+								<circle class="cls-2" cx="67.42" cy="163.24" r="25" transform="translate(-138.14 134.12) rotate(-67.5)"/>
+								<circle class="cls-2" cx="105.8" cy="105.8" r="25" transform="translate(-72.77 76.86) rotate(-45)"/>
+								<circle class="cls-2" cx="163.24" cy="67.42" r="25" transform="translate(-42.32 38.66) rotate(-22.5)"/>
+							</svg>
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="image">
+							<svg id="circle_12" data-name="Layer 12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.11 404.11">
+							<title>loading_icon</title>
+								<circle class="cls-2" cx="202.05" cy="25" r="25"/>
+								<circle class="cls-2" cx="298.76" cy="67.42" r="25" transform="translate(93.19 288.69) rotate(-67.5)"/>
+								<circle class="cls-2" cx="356.2" cy="105.8" r="25" transform="translate(0.57 253.91) rotate(-45)"/>
+								<circle class="cls-2" cx="394.58" cy="163.24" r="25" transform="translate(-61.38 134.48) rotate(-22.5)"/>
+								<circle class="cls-2" cx="379.11" cy="202.05" r="25"/>
+								<circle class="cls-2" cx="394.58" cy="298.76" r="25" transform="translate(-61.38 520.02) rotate(-67.5)"/>
+								<circle class="cls-2" cx="356.2" cy="356.2" r="25" transform="translate(-176.49 327.25) rotate(-45)"/>
+								<circle class="cls-2" cx="298.76" cy="394.58" r="25" transform="translate(-157.2 115.42) rotate(-22.5)"/>
+								<circle class="cls-2" cx="202.05" cy="379.11" r="25"/>
+								<circle class="cls-2" cx="163.24" cy="394.58" r="25" transform="translate(-292.71 365.45) rotate(-67.5)"/>
+								<circle class="cls-2" cx="105.8" cy="356.2" r="25" transform="translate(-249.83 150.2) rotate(-45)"/>
+								<circle class="cls-2" cx="67.42" cy="298.76" r="25" transform="translate(-138.14 19.6) rotate(-22.5)"/>
+								<circle class="cls-2" cx="25" cy="202.05" r="25"/>
+								<circle class="cls-2" cx="67.42" cy="163.24" r="25" transform="translate(-138.14 134.12) rotate(-67.5)"/>
+								<circle class="cls-2" cx="105.8" cy="105.8" r="25" transform="translate(-72.77 76.86) rotate(-45)"/>
+								<circle class="cls-2" cx="163.24" cy="67.42" r="25" transform="translate(-42.32 38.66) rotate(-22.5)"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		
+	</div>
+	<script>
+
+		//Fat rects
+		singleSpin8('#rect_1',"rect");
+		multiSpin8('#rect_2',"rect");
+		reverseSpin8('#rect_3',"rect");
+
+		//Fat circles
+		singleSpin8('#circle_4',"circle");
+		multiSpin8('#circle_5',"circle");
+		reverseSpin8('#circle_6',"circle");
+
+		//Small rects
+		singleSpin16('#rect_7',"rect");
+		multiSpin16('#rect_8',"rect");
+		reverseSpin16('#rect_9',"rect");
+
+		//Small circles
+		singleSpin16('#circle_10',"circle");
+		multiSpin16('#circle_11',"circle");
+		reverseSpin16('#circle_12',"circle");
+
+
+		function singleSpin8(id,elemType) {
+			
+			var elementsName = "" + id + ">" + elemType + "";
+			var $elements = $(elementsName);
+
+			tlime = new TimelineMax({repeat:-1});
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.1, {
+				opacity: 1,
+				delay: -0.1,
+				}, 0.1)
+			);
+
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.1, {
+		 		opacity: 0.2,
+		 	}, 0.1), 
+			);
+
+			var firstEl = $elements.toArray()[0];
+
+			tlime.insert(TweenMax.fromTo(firstEl,0.1,{
+				opacity: 0.2
+				},{
+				opacity: 1,
+				delay: 0.7
+				}	
+			))
+		}
+
+		function singleSpin16(id,elemType) {
+			
+			var elementsName = "" + id + ">" + elemType + "";
+			var $elements = $(elementsName);
+
+			tlime = new TimelineMax({repeat:-1});
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.05, {
+				opacity: 1,
+				delay: -0.05,
+				}, 0.05)
+			);
+
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.05, {
+		 		opacity: 0.3,
+		 	}, 0.05), 
+			);
+
+			var firstEl = $elements.toArray()[0];
+
+			tlime.insert(TweenMax.fromTo(firstEl,0.05,{
+				opacity: 0.3
+				},{
+				opacity: 1,
+				delay: 0.75
+				}	
+			))
+		}
+
+		function multiSpin8(id,elemType) {
+			
+			var elementsName = "" + id + ">" + elemType + "";
+			var $elements = $(elementsName);
+
+			tlime = new TimelineMax({repeat:-1});
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.1, {
+					opacity: 1,
+					delay: 0.05,
+				}, 0.1)
+			);
+
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.1, {
+			 		opacity: 0.2,
+			 		delay: 0.2
+			 	}, 0.1), "-=0.2"
+			);
+		}
+
+		function multiSpin16(id,elemType) {
+			
+			var elementsName = "" + id + ">" + elemType + "";
+			var $elements = $(elementsName);
+
+			tlime = new TimelineMax({repeat:-1});
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.05, {
+					opacity: 1,
+					delay: 0.1,
+				}, 0.05)
+			);
+
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.05, {
+			 		opacity: 0.3,
+			 		delay: 0.05
+			 	}, 0.05), "-=0.1"
+			);
+		}
+
+		function reverseSpin8(id,elemType) {
+			
+			var elementsName = "" + id + ">" + elemType + "";
+			var $elements = $(elementsName);
+
+			tlime = new TimelineMax({repeat:-1, yoyo:true});
+
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.1, {
+					opacity: 1,
+					delay: 0.1
+				}, 0.1)
+			);
+		}
+
+		function reverseSpin16(id,elemType) {
+			
+			var elementsName = "" + id + ">" + elemType + "";
+			var $elements = $(elementsName);
+
+			tlime = new TimelineMax({repeat:-1, yoyo:true});
+
+			tlime.insert(TweenMax.staggerTo($elements.toArray(), 0.05, {
+					opacity: 1,
+					delay: 0.1
+				}, 0.05)
+			);
+		}
+
+	</script>
+</body>
+</html>
